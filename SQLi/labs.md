@@ -14,4 +14,16 @@ SELECT * FROM products WHERE category = 'Gifts' AND released = 1
 **Result:**
 The application displayed unreleased products
 
+# 2. Lab: SQL injection vulnerability allowing login bypass
+**Goal:**
+Log in to the application as the administrator user. 
+
+**Injection point:**
+username parameter
+
+**Payload:**
+administrator'--
+
+**Result:**
+The application logged in as administrator.
 
